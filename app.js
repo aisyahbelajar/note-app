@@ -22,7 +22,6 @@ app.makeFolder = () => {
 // To Do : lanjutkan pembuatan logic disini
 
 // MAKE FILE
-// tinggal buat logic apabila folder sudah ada maka tinggal make file
 app.makeFile = () => {
   rl.question("Masukan Nama Folder : ", (folderName) => {
     let fullPath = path.join(__dirname, folderName);
@@ -57,6 +56,7 @@ app.askForFile = (folderPath) => {
     });
   });
 };
+// MAKE FILE END
 
 // EXT-SORTER
 app.extSorter = () => {
@@ -86,6 +86,7 @@ app.extSorter = () => {
   }
   rl.close();
 };
+// EXT-SORTER END
 
 // READ FOLDER
 app.readFolder = () => {
@@ -127,7 +128,9 @@ app.readFolder = () => {
     console.log(output);
   });
 };
+// READ FOLDER END
 
+// READ FILE
 app.readFile = () => {
   rl.question("Masukkan nama folder : ", (folderName) => {
     rl.question("Masukkan nama file: ", (file) => {
@@ -145,5 +148,6 @@ app.readFile = () => {
     });
   });
 };
+// READ FILE END
 
 module.exports = app;
