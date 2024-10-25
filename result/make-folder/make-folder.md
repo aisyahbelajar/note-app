@@ -21,8 +21,7 @@ app.makeFolder = () => {
 
 ## Cara Menggunakan
 
-1. Pastikan berada di dalam branch result untuk menyimpan output (bukti screenshot).
-2. Jalankan perintah berikut untuk menjalankan fungsi make-folder:
+1. Jalankan perintah berikut untuk menjalankan fungsi make-folder:
 
 ```bash
 npm run make-folder
@@ -32,8 +31,8 @@ npm run make-folder
 
 ## Output
 
-Berikut adalah contoh hasil ketika fungsi `make-folder` berhasil dijalankan :  
-**Gambar Output**
+Berikut adalah contoh hasil ketika fungsi `make-folder` berhasil dijalankan :
+
 ![sebelum membuat folder](before.png)
 menjadi
 ![sesudah membuat folder](after.png)

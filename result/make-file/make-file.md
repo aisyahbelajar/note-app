@@ -47,8 +47,7 @@ app.askForFile = (folderPath) => {
 
 ## Cara Menggunakan
 
-1. Pastikan berada di dalam branch result untuk menyimpan output (bukti screenshot).
-2. Jalankan perintah berikut untuk menjalankan fungsi make-file:
+1. Jalankan perintah berikut untuk menjalankan fungsi make-file:
 
 ```bash
 npm run make-file

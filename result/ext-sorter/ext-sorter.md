@@ -41,8 +41,7 @@ app.extSorter = () => {
 
 ## Cara Menggunakan
 
-1. Pastikan berada di dalam branch result untuk menyimpan output (bukti screenshot).
-2. Jalankan perintah berikut untuk menjalankan fungsi ext-sorter:
+1. Jalankan perintah berikut untuk menjalankan fungsi ext-sorter:
 
 ```bash
 npm run ext-sorter
